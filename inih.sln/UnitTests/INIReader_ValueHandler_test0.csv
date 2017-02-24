@@ -1,0 +1,4 @@
+CodeScroll Unit Tester(Controller Tester) Test Data
+test name:INIReader_ValueHandler_test0,""
+,<input>,name,section,value,<expect>,returnVar,<output>,returnVar
+1,""," "," "," ",,,,
