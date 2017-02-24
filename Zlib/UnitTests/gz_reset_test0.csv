@@ -1,0 +1,11 @@
+CodeScroll Unit Tester(Controller Tester) Test Data
+test name:gz_reset_test0,""
+,<input>,state_mem[0].mode,<expect>,<output>
+1,"","7247",,
+2,"","-2147483648",,
+3,"","2147483647",,
+4,"","7248",,
+5,"","1",,
+6,"","0",,
+7,"","-1",,
+8,"","7246",,

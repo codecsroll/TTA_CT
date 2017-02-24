@@ -1,0 +1,11 @@
+CodeScroll Unit Tester(Controller Tester) Test Data
+test name:_tr_align_test0,""
+,<input>,s_mem[0].bi_buf,s_mem[0].bi_valid,<expect>,<output>
+1,"","15","-1",,
+2,"","0","17",,
+3,"","1","16",,
+4,"","0","2147483647",,
+5,"","17","-2147483648",,
+6,"","65535","15",,
+7,"","16","0",,
+8,"","1","1",,

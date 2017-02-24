@@ -1,0 +1,9 @@
+CodeScroll Unit Tester(Controller Tester) Test Data
+test name:gzwrite_test0,""
+,<input>,len,<expect>,returnVar,<output>,returnVar
+1,"","31153",,,,
+2,"","31152",,,,
+3,"","0",,,,
+4,"","1",,,,
+5,"","4294967295",,,,
+6,"","31154",,,,

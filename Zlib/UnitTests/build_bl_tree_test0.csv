@@ -1,0 +1,11 @@
+CodeScroll Unit Tester(Controller Tester) Test Data
+test name:build_bl_tree_test0,""
+,<input>,s_mem[0].bl_desc.max_code,s_mem[0].bl_tree[0].dl.len,s_mem[0].d_desc.max_code,s_mem[0].dyn_dtree[0].dl.len,s_mem[0].dyn_ltree[0].dl.len,s_mem[0].l_desc.max_code,<expect>,returnVar,<output>,returnVar
+1,"","2147483647","4","-2147483648","1","65535","0",,,,
+2,"","0","3","2","0","1","4",,,,
+3,"","1","2","0","4","0","3",,,,
+4,"","-2147483648","0","4","2","0","2",,,,
+5,"","-1","65535","3","65535","2","-2147483648",,,,
+6,"","3","0","-1","3","3","-1",,,,
+7,"","2","1","2147483647","0","1","1",,,,
+8,"","4","1","1","1","4","2147483647",,,,

@@ -1,0 +1,8 @@
+CodeScroll Unit Tester(Controller Tester) Test Data
+test name:gz_init_test0,""
+,<input>,state_mem[0].direct,state_mem[0].level,state_mem[0].size,state_mem[0].strategy,state_mem[0].want,state_mem0_in_mem[0],state_mem0_out_mem[0],state_mem0_strm_next_out_mem[0],<expect>,returnVar,<output>,returnVar
+1,"","1","-2147483648","4294967295","1","0","1","255","1",,,,
+2,"","-1","2147483647","0","0","0","255","1","0",,,,
+3,"","0","1","1","-1","1","0","0","255",,,,
+4,"","-2147483648","-1","1","-2147483648","4294967295","0","1","1",,,,
+5,"","2147483647","0","0","2147483647","1","1","0","0",,,,

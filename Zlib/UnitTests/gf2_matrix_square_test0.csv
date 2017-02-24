@@ -1,0 +1,9 @@
+CodeScroll Unit Tester(Controller Tester) Test Data
+test name:gf2_matrix_square_test0,""
+,<input>,mat_mem[0],square_mem[0],<expect>,<output>
+1,"","33","1",,
+2,"","4294967295","33",,
+3,"","1","4294967295",,
+4,"","31","32",,
+5,"","0","0",,
+6,"","32","31",,

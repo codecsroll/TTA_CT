@@ -1,0 +1,8 @@
+CodeScroll Unit Tester(Controller Tester) Test Data
+test name:bi_reverse_test0,""
+,<input>,code,len,<expect>,returnVar,<output>,returnVar
+1,"","4294967295","-1",,,,
+2,"","1","-2147483648",,,,
+3,"","0","0",,,,
+4,"","0","1",,,,
+5,"","1","2147483647",,,,

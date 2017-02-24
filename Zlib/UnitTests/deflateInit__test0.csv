@@ -1,0 +1,8 @@
+CodeScroll Unit Tester(Controller Tester) Test Data
+test name:deflateInit__test0,""
+,<input>,level,stream_size,version,<expect>,returnVar,<output>,returnVar
+1,"","2147483647","2147483647"," ",,,,
+2,"","0","-1"," ",,,,
+3,"","1","0"," ",,,,
+4,"","-1","-2147483648"," ",,,,
+5,"","-2147483648","1"," ",,,,
