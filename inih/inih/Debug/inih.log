@@ -1,0 +1,55 @@
+﻿빌드 시작: 2017-02-10 오후 5:41:33
+     1>2 노드의 "C:\work\testSrc\inih\inih\inih.vcxproj" 프로젝트(build 대상)입니다.
+     1>InitializeBuildStatus:
+         "Debug\inih.unsuccessfulbuild"에 연결(touching)하고 있습니다.
+       ClCompile:
+         모든 출력이 최신 상태입니다.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\cpp\INIReader.cpp ..\examples\INIReaderExample.cpp
+         INIReaderExample.cpp
+         INIReader.cpp
+         코드를 생성하고 있습니다...
+         모든 출력이 최신 상태입니다.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt ..\examples\ini_buffer.c ..\examples\ini_dump.c ..\examples\ini_example.c ..\examples\ini_xmacros.c ..\ini.c ..\tests\unittest.c
+         unittest.c
+     1>c:\work\testsrc\inih\tests\unittest.c(32): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 'strncpy' 선언을 참조하십시오.
+         ini.c
+         ini_xmacros.c
+     1>c:\work\testsrc\inih\examples\config.def(3): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : 'strdup' 선언을 참조하십시오.
+     1>c:\work\testsrc\inih\examples\config.def(5): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : 'strdup' 선언을 참조하십시오.
+     1>c:\work\testsrc\inih\examples\config.def(6): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : 'strdup' 선언을 참조하십시오.
+         ini_example.c
+     1>c:\work\testsrc\inih\examples\ini_example.c(24): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : 'strdup' 선언을 참조하십시오.
+     1>c:\work\testsrc\inih\examples\ini_example.c(26): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : 'strdup' 선언을 참조하십시오.
+         ini_dump.c
+     1>c:\work\testsrc\inih\examples\ini_dump.c(14): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(188) : 'strncpy' 선언을 참조하십시오.
+         ini_buffer.c
+     1>c:\work\testsrc\inih\examples\ini_buffer.c(72): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : 'strdup' 선언을 참조하십시오.
+     1>c:\work\testsrc\inih\examples\ini_buffer.c(74): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _strdup. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(238) : 'strdup' 선언을 참조하십시오.
+         코드를 생성하고 있습니다...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\work\testSrc\inih\Debug\inih.lib" /NOLOGO Debug\INIReader.obj
+         Debug\INIReaderExample.obj
+         Debug\ini_buffer.obj
+         Debug\ini_dump.obj
+         Debug\ini_example.obj
+         Debug\ini_xmacros.obj
+         Debug\ini.obj
+         Debug\unittest.obj
+         inih.vcxproj -> C:\work\testSrc\inih\Debug\inih.lib
+       FinalizeBuildStatus:
+         "Debug\inih.unsuccessfulbuild" 파일을 삭제하고 있습니다.
+         "Debug\inih.lastbuildstate"에 연결(touching)하고 있습니다.
+     1>"C:\work\testSrc\inih\inih\inih.vcxproj" 프로젝트를 빌드했습니다(build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.65
