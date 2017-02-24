@@ -1,8 +1,0 @@
-CodeScroll Unit Tester(Controller Tester) Test Data
-test name:deflatePending_test0,""
-,<input>,bits_mem[0],pending_mem[0],strm_mem[0].state[0].bi_valid,strm_mem[0].state[0].pending,<expect>,returnVar,<output>,returnVar
-1,"","0","1","1","0",,,,
-2,"","2147483647","4294967295","-1","0",,,,
-3,"","-1","0","0","1",,,,
-4,"","1","0","-2147483648","1",,,,
-5,"","-2147483648","1","2147483647","4294967295",,,,

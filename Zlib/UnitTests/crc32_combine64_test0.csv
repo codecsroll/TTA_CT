@@ -1,8 +1,0 @@
-CodeScroll Unit Tester(Controller Tester) Test Data
-test name:crc32_combine64_test0,""
-,<input>,crc1,crc2,len2,<expect>,<output>
-1,"","4294967295","1","1",,
-2,"","0","1","0",,
-3,"","0","0","-2147483648",,
-4,"","1","4294967295","-1",,
-5,"","1","0","2147483647",,
