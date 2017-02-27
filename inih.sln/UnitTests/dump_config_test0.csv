@@ -1,4 +1,0 @@
-CodeScroll Unit Tester(Controller Tester) Test Data
-test name:dump_config_test0,""
-,<input>,cfg_mem[0].protocol_version,cfg_mem[0].user_email,cfg_mem[0].user_name,<expect>,<output>
-1,""," "," "," ",,
