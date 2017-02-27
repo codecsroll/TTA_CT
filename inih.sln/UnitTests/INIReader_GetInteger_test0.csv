@@ -1,8 +1,0 @@
-CodeScroll Unit Tester(Controller Tester) Test Data
-test name:INIReader_GetInteger_test0,""
-,<input>,default_value,filename,name,section,<expect>,returnVar,<output>,returnVar
-1,"","1"," "," "," ",,"",,"1"
-2,"","-1"," "," "," ",,"",,"-1"
-3,"","-2147483648"," "," "," ",,"",,"-2147483648"
-4,"","0"," "," "," ",,"",,"0"
-5,"","2147483647"," "," "," ",,"",,"2147483647"

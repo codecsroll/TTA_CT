@@ -1,4 +1,0 @@
-CodeScroll Unit Tester(Controller Tester) Test Data
-test name:ini_parse_test0,""
-,<input>,filename,<expect>,returnVar,<output>,returnVar
-1,""," ",,"",,"-1"
